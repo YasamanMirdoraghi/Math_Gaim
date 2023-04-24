@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #63a724;
+  font-family: 'Times New Roman', Times, serif;
+  overflow: hidden;
+}
+
+body .container {
+  background-color: #fff;
+  width: 90%;
+  max-width: 31em;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 5em 3em;
+  border-radius: 15px;
+}
+
+body .container #question {
+  background-color: #ffff;
+  font-size: 2em;
+  font-weight: 600;
+  color: #23234c;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1.4em 0 1em 0;
+  padding: 1em 0;
+}
+
+body .container input {
+  font-size: 1em;
+  font-weight: 600;
+  width: 2.34em;
+  color: #23234c;
+  text-align: center;
+  padding: 0 0.2em;
+  border: none;
+  background-color: transparent;
+  border-bottom: 0.12em solid #23234c;
+  margin: 0 0.25em;
+}
+
+body .container input:focus {
+  border-color: #63a724;
+  outline: none;
+}
+
+body .container h3 {
+  font-size: 24px;
+  color: #23234c;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+body .container ._btn {
+  font-size: 1.2em;
+  font-weight: 500;
+  display: block;
+  margin: 0px auto;
+  background-color: #63a724;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #23234c;
+  padding: 0.6em  2em;
+}
+
+body .container ._error {
+  text-align: center;
+  margin-top: 1em;
+  background-color: #ffdde0;
+  color: #be184a;
+  padding: 0.2em 0;
+}
+
+body .container1 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #63a724;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+body .container1 #start {
+  font-size: 1.2em;
+  font-weight: 500;
+  background-color: #fff;
+  color: #23234c;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.8em 1.8em;
+  border-radius: 0.3em;
+}
+
+body .container1 #result {
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  color: #23234c;
+}
+
+body .container1 #result span {
+  font-weight: 600;
+}
+
+.hide {
+  display: none;
+}
+/*# sourceMappingURL=math.css.map */

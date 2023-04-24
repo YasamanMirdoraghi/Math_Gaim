@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    // background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    background-color:rgb(99, 167, 36);
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    .container{
+        background-color: #fff;
+        width: 90%;
+        max-width: 31em;
+        position:absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        padding: 5em 3em;
+        border-radius: 15px;
+
+        #question{
+            background-color: #ffff;
+            font-size: 2em;
+            font-weight: 600;
+            color: #23234c;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1.4em 0 1em 0;
+            padding: 1em 0;
+        }
+        input{
+            font-size: 1em;
+            font-weight: 600;
+            width: 2.34em;
+            color: #23234c;
+            text-align: center;
+            padding: 0 0.2em;
+            border: none;
+            background-color: transparent;
+            border-bottom: 0.12em solid #23234c;
+            margin: 0 0.25em;
+        
+            &:focus{
+                border-color: rgb(99, 167, 36);
+                outline: none;
+            }
+        }
+
+        h3{
+            font-size: 24px;
+            color: #23234c;
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 15px;
+
+        }
+        ._btn{
+            font-size: 1.2em;
+            font-weight: 500;
+            display: block;
+            margin: 0px auto;
+            background-color: rgb(99, 167, 36);
+            border-radius: 15px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            color: #23234c;
+            padding: 0.6em  2em;
+        }
+        ._error{
+            text-align: center;
+            margin-top: 1em;
+            background-color: #ffdde0;
+            color: #be184a;
+            padding: 0.2em 0;
+
+        }
+    }
+
+
+    .container1{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(99, 167, 36);
+        height: 100%;
+        width: 100%;
+        top: 0;
+
+        #start{
+            font-size: 1.2em;
+            font-weight: 500;
+            background-color: #fff;
+            color: #23234c;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 0.8em 1.8em ;
+            border-radius: 0.3em;
+        }
+
+        #result{
+            margin-bottom: 1em;
+            font-size: 1.5em;
+            color: #23234c;
+
+            span{
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.hide{
+    display: none;
+}
